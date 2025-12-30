@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Laundry Service</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Logo</div>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+    </nav>
+
+    <div class="user">Username</div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>
+        Revitalize Your <br />
+        Clothes with Expert <br />
+        <span>Laundry Services!</span>
+      </h1>
+
+      <p>
+        From premium dry cleaning to swift wash and fold,
+        we deliver care and convenience. Schedule a pickup
+        and rediscover the freshness of your clothes today!
+      </p>
+
+      <button id="bookBtn"> Book a service today!</button>
+    </div>
+
+    <div class="hero-image">
+      <img src="./laundry.jpeg" alt="Washing Machine" />
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section class="achievements">
+    <h2>Our Achievements</h2>
+
+    <div class="stats">
+      <div>
+        <h3>15+</h3>
+        <p>Laundry Services</p>
+      </div>
+
+      <div>
+        <h3>240+</h3>
+        <p>Happy Customers</p>
+      </div>
+
+      <div>
+        <h3>2+ Yrs</h3>
+        <p>Experience</p>
+      </div>
+    </div>
+</section>
+<div class="container">
+
+  <!-- LEFT : SERVICES -->
+  <div class="services-box">
+    <h2>Our Services</h2>
+    <p class="hint">Click On The Add To Cart Button To Add The Services To Your Cart</p>
+
+    <div class="service" data-name="Dry Cleaning" data-price="200">
+      <span> Dry Cleaning</span>
+      <span class="price">200.00</span>
+      <button onclick="toggleItem(this)">Add Item</button>
+    </div>
+
+    <div class="service" data-name="Wash & Fold" data-price="100">
+      <span>Wash & Fold</span>
+      <span class="price">100.00</span>
+      <button onclick="toggleItem(this)">Add Item</button>
+    </div>
+
+    <div class="service" data-name="Ironing" data-price="30">
+      <span>Ironing</span>
+      <span class="price">30.00</span>
+      <button onclick="toggleItem(this)">Add Item</button>
+    </div>
+
+    <div class="service" data-name="Stain Removal" data-price="500">
+      <span> Stain Removal</span>
+      <span class="price">500.00</span>
+      <button onclick="toggleItem(this)">Add Item</button>
+    </div>
+
+    <div class="service" data-name="Leather & Suede Cleaning" data-price="999">
+      <span> Leather & Suede Cleaning</span>
+      <span class="price">999.00</span>
+      <button onclick="toggleItem(this)">Add Item</button>
+    </div>
+
+    <div class="service" data-name="Wedding Dress Cleaning" data-price="2800">
+      <span>Wedding Dress Cleaning</span>
+      <span class="price">2800.00</span>
+      <button onclick="toggleItem(this)">Add Item</button>
+    </div>
+  </div>
+
+  <!-- RIGHT : CART -->
+  <div class="cart-box">
+    <h3>Added Items</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th>S.No</th>
+          <th>Service Name</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody id="cartBody"></tbody>
+    </table>
+
+    <div class="total">
+      <span>Total Amount</span>
+      <strong id="total">0.00</strong>
+    </div>
+
+    <div class="booking">
+      <h4>Book Now</h4>
+      <input type="text" placeholder="Full Name">
+      <input type="email" placeholder="Email ID">
+      <input type="text" placeholder="Phone Number">
+      <button class="book-btn">Book now</button>
+    </div>
+  </div>
+
+</div>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- Logo & About -->
+    <div class="footer-column">
+      <h3 class="footer-logo">LaundryLogo</h3>
+      <p class="footer-text">
+        We provide professional laundry services with care, quality,
+        and convenience to make your life easier.
+      </p>
+    </div>
+
+    <!-- About Us -->
+    <div class="footer-column">
+      <h4>About</h4>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Our Mission</a></li>
+        <li><a href="#">Why Choose Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Important Links -->
+    <div class="footer-column">
+      <h4>Important Links</h4>
+      <ul>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact & Social -->
+    <div class="footer-column">
+      <h4>Contact Us</h4>
+      <ul>
+        <li>Email: support@laundry.com</li>
+        <li>Phone: +91 90000 00000</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+     2025 Laundry Service. All Rights Reserved.
+  </div>
+
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #ffffff;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.user {
+  background: #eaf4ff;
+  padding: 8px 14px;
+  border-radius: 20px;
+  color: #3498db;
+  font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.hero-text h1 span {
+  color: #3498db;
+}
+
+.hero-text p {
+  color: #777;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.hero-text button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.hero-text button:hover {
+  background: #2c80b4;
+}
+
+/* Hero Image */
+.hero-image img {
+  width: 320px;
+}
+
+/* Achievements */
+.achievements {
+  background: #3498db;
+  color: white;
+  padding: 40px 60px;
+  margin-top: 40px;
+}
+
+.achievements h2 {
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  gap: 60px;
+}
+
+.stats h3 {
+  font-size: 26px;
+}
+
+.stats p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+body {
+  background: #f6f9fc;
+  font-family: Arial, sans-serif;
+}
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f6f8fb;
+}
+
+.container {
+  display: flex;
+  gap: 25px;
+  padding: 40px;
+}
+
+/* SERVICES */
+.services-box {
+  flex: 2;
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.hint {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.price {
+  color: #4f6bed;
+  font-weight: bold;
+}
+
+.service button {
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #eef2ff;
+}
+
+.service button.remove {
+  background: #ffecec;
+  color: #d63031;
+}
+
+/* CART */
+.cart-box {
+  flex: 1;
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+th, td {
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+}
+
+/* BOOKING */
+.booking input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.book-btn {
+  width: 100%;
+  padding: 12px;
+  background: #4f6bed;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+/* FOOTER */
+.footer {
+  background: #1f2937;
+  color: #d1d5db;
+  padding: 40px 60px 20px;
+  margin-top: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-logo {
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-column h4 {
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.footer-column ul li a {
+  color: #d1d5db;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  color: #4f6bed;
+}
+
+
+/* Bottom */
+.footer-bottom {
+  text-align: center;
+  font-size: 13px;
+  color: #9ca3af;
+  margin-top: 30px;
+  border-top: 1px solid #374151;
+  padding-top: 15px;
+}
