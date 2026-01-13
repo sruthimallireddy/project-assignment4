@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Laundry Service</title>
   <link rel="stylesheet" href="style.css" />
@@ -38,12 +43,7 @@
         and rediscover the freshness of your clothes today!
       </p>
       <section id="services" id="services"> </section>
-      <a href="#services" class="hero-btn">
-  Book a Service Today
-</a>
-
-
-
+      <a href="#services" class="book-btn">Book a Service Today</a>
     </div>
 
     <div class="hero-image">
@@ -150,56 +150,64 @@
 
 </div>
 
-<!-- ================= FOOTER ================= -->
 <footer class="footer">
 
-  <div class="footer-container">
+  <!-- Newsletter Section -->
+  <div class="newsletter">
+    <h2>Subscribe to our newsletter.</h2>
 
-    <!-- Logo & About -->
-    <div class="footer-column">
-      <h3 class="footer-logo">LaundryLogo</h3>
-      <p class="footer-text">
-        We provide professional laundry services with care, quality,
-        and convenience to make your life easier.
+    <form class="newsletter-form">
+      <input type="text" placeholder="Full name" required />
+      <input type="email" placeholder="Email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+
+  <!-- Footer Content -->
+  <div class="footer-content">
+
+    <!-- Logo + About -->
+    <div class="footer-box">
+      <h3>Logo</h3>
+      <p>
+        We provide professional laundry services with care, quality, and convenience to make your life easier
       </p>
     </div>
 
-    <!-- About Us -->
-    <div class="footer-column">
-      <h4>About</h4>
-      <ul>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Our Mission</a></li>
-        <li><a href="#">Why Choose Us</a></li>
-      </ul>
-    </div>
-
     <!-- Important Links -->
-    <div class="footer-column">
-      <h4>Important Links</h4>
+    <div class="footer-box">
+      <h3>Important Links</h3>
       <ul>
-        <li><a href="#">FAQs</a></li>
-        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
         <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Refund Policy</a></li>
       </ul>
     </div>
 
-    <!-- Contact & Social -->
-    <div class="footer-column" id="contact">
-      <h4>Contact Us</h4>
-      <ul>
-        <li>Email: support@laundry.com</li>
-        <li>Phone: +91 90000 00000</li>
-      </ul>
+    <!-- Contact -->
+    <div class="footer-box">
+      <h3>Contact</h3>
+      <p>mail@laundry.com</p>
+      <p>+91 123456789</p>
     </div>
 
-  </div>
+    <!-- Social Links -->
+    <div class="footer-box">
+      <h3>Follow Us</h3>
+     <div class="social-icons">
+  <a href="#"><i class="fab fa-instagram"></i></a>
+  <a href="#"><i class="fab fa-facebook-f"></i></a>
+  <a href="#"><i class="fab fa-twitter"></i></a>
+  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+</div>
+    </div>
 
-  <div class="footer-bottom">
-     2025 Laundry Service. All Rights Reserved.
   </div>
 
 </footer>
+
 
 
   <script src="script.js"></script>
